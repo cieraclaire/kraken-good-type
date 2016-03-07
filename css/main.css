@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  padding: 0.75rem;
+  margin: 0;
+}
+
+header {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin: 0;
+  background-color: #259f95;
+  color: #fff;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.colon {
+  visibility: hidden;
+  position: relative;
+
+}
+
+.chapter-num {
+  font-size: 0.75rem;
+  padding: 0;
+  display: block;
+  word-wrap: break-word;
+}
+
+p::first-line {
+  font-style: italic;
+  color: #1e7c74;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.75rem;
+  color: #222;
+}
+
+img {
+  display: block;
+  width: 47em;
+}
